@@ -1,13 +1,14 @@
 # https://acm.timus.ru/problem.aspx?num=1068
 
 n = int(input())
-nn = abs(n)
-r = 0
-for i in range(2,nn+1):
-
-    r+=i
+r=0
 if n>0:
+    for i in range(1,n+1):
+        r+=i
+    print(r)
+elif n<0:
+    for i in range(n,-1):
+        r += i
     print(r)
 else:
-    print("-",end="")
-    print(r)
+    print("1")
