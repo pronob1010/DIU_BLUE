@@ -18,6 +18,4 @@ n = [2,3,5,7,11,13,17,19,23,29,31,37,41,43,47,53,59,61,67,71,73,79,83,89,97,101,
 
 for k in range(int(input())):
     p = int(input())
-    for i in range(p+1):
-        if i==p-1:
-            print(n[i])
+    print(n[p-1])
