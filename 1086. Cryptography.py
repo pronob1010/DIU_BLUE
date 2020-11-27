@@ -6,6 +6,7 @@ def SieveOfEratosthenes(n):
          for i in range(p * 2, n + 1, p):
             prime[i] = False
       p += 1
+
    prime[0]= False
    prime[1]= False
 
