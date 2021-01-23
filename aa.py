@@ -145,6 +145,7 @@ for i in range(m):
             s+=matrix[j][i]
             p = 0
 
+
     line.append(s)
 
 print(*line,sep="")
